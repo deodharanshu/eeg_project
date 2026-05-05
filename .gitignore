@@ -3,4 +3,3 @@ __pycache__/
 *.pyc
 *.pth
 *.mat
-*.png
