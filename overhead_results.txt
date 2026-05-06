@@ -1,0 +1,13 @@
+Computational Overhead Measurement
+==================================
+
+Standard training (50 epochs):    201.84 sec (3.36 min)
+Adversarial training (50 epochs): 1056.47 sec (17.61 min)
+Per-epoch standard:    4.04 sec
+Per-epoch adversarial: 21.13 sec
+Overhead ratio: 5.23x
+Overhead percentage: +423.4%
+
+Inference per trial: 4.06 ms
+Note: defense incurs zero inference cost. Same model architecture,
+only training procedure differs. Critical for embedded BCI deployment.
